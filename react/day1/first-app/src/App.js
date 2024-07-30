@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <select onChange={handel} multiple>
+        <select on onChange={handel} multiple>
           {dataAraay.map((x) => (
             <option key={x} value={x}>
               {x}
